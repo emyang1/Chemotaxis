@@ -1,4 +1,4 @@
- Spark[] ding;
+Spark[] ding;
   
 void setup(){
   size(500, 500);
@@ -8,7 +8,7 @@ void setup(){
     }
 }
 void draw(){
-  background(200); 
+  background(250); 
   noStroke();
   for(int i = 0; i < ding.length;i++){
     ding[i].move();
@@ -20,7 +20,7 @@ void draw(){
     fill(230, 200, 200);
     rect(70, 190, 60, 80, 7); //spritz part
     rect(60, 250, 80, 60, 5); //twist
-    fill(220);
+    fill(200, 200, 230);
     rect(40, 300, 120, 200, 8); //main bottle
     fill(180, 200, 200);
     ellipse(127, 220, 5, 15); //spray hole
@@ -60,3 +60,5 @@ class Spark{
     quad(myX+50, myY-5, myX+53, myY, myX+50, myY+5, myX+47, myY);
   }
 }
+
+
